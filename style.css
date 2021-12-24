@@ -1,0 +1,107 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #DBE2EF;
+    height: 55px;
+}
+
+.header-icons {
+    max-width: 1000px;
+    display: grid;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 18px;
+    grid-template-columns: 30px 30px 30px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+
+header svg {
+    color: #3F72AF;
+    height: 35px;
+    width: 35px;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+main {
+    background-image: url(images/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.main-top {
+    padding: 18px 0;
+}
+
+.main-top-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1000px;
+    align-items: center;
+}
+
+.main-top a {
+    color: #3F72AF;
+    border-bottom: 2px solid #3F72AF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+main .main-top-logo {
+    border-bottom: none;
+    max-width: 300px;
+}
+
+
+.main-text {
+    margin-top: 40px;
+    text-align: center;
+    color: #3F72AF;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.main-text button {
+    margin-top: 40px;
+    background-color: #112D4E;
+    border: none;
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.main-text a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media (max-width: 1000px) {
+
+
+    .header-icons, .main-top-container  {
+        padding: 8px 4%;
+    }
+
+    .main-top-logo img {
+        max-width: 150px;
+    }
+    .main-text {
+        font-size: 22px;
+    }
+    .main-text button {
+        font-size: 16px;
+    }
+}
+
